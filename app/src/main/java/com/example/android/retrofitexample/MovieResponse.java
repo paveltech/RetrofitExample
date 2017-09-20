@@ -22,7 +22,6 @@ public class MovieResponse {
     @SerializedName("total_pages")
     public int totalPage;
 
-
     public ArrayList<MovieList> getMovieListArrayList() {
         return movieListArrayList;
     }
